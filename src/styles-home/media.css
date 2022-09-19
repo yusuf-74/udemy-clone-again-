@@ -1,0 +1,130 @@
+/* handling the nav bar for small screens */
+@media  (max-width: 800px) {
+  .main-content{
+    margin: 0 auto;
+    padding: 0 24px;
+    max-width: 500px;
+  }
+  .single-main-content-header{
+    margin: 0 auto;
+    padding: 24px;
+    max-width: 500px;
+}
+  .small{
+    display: block;
+
+  }
+  .nav-bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icon{
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    padding: 0 12px;
+  }
+  .udemy_logo{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+  }
+  .udemy_logo img{
+     width: 92px;
+    height: 34px;
+  }
+  .icon button{
+    background-color: inherit;
+    border: none;
+  }
+  .nav-bar{
+    display: none;
+  }
+  .nav-bar-container a{
+    display: none;
+  }
+}
+/* hidding the "Udemy Business" container */
+@media (max-width:1080px)
+{
+    .media_1080{
+        display: none;
+    }
+    
+}
+/* hidding the "Teach on Udemy" container */
+@media (max-width:915px)
+{
+    .media_915{
+        display: none;
+    }
+}
+
+@media (max-width:700px)
+{
+    .footer_container{
+        display: block;
+    }}
+/*
+ handling the footer siction for tiny sccreens 
+ and the header card
+*/
+@media (min-width: 915px){
+  .header-card-pop{
+    position: absolute;
+    top: 150px;
+    left: 110px;
+    background-color: white;
+    padding: 24px;
+    width: 440px;
+
+}
+.header-card h1{
+margin:0 0 10px 0;
+padding: 0;
+}
+.header-card p{
+    padding: 0;
+}
+}
+/* the header card need to be handled for huge screens */
+ @media (min-width: 1600px)
+{
+    .header-card{
+        padding: 24px;
+    background-color: white;
+    width: 350px;
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    }
+    .header-card h1{
+margin:0 0 10px 0;
+padding: 0;
+}
+.header-card p{
+    padding: 0;
+}
+} 
+/* the header card need to be handled for extremly huge screens */
+@media (min-width: 3100px)
+{
+    .header-card{
+        padding: 24px;
+    background-color: white;
+    width: 350px;
+    position: absolute;
+    top: 150px;
+    left: 40%;
+    }
+    .header-card h1{
+margin:0 0 10px 0;
+padding: 0;
+}
+.header-card p{
+    padding: 0;
+}
+} 
+/* Sorry for wasting your time */
