@@ -1,0 +1,83 @@
+.single-header{
+    width: 100%;
+    background-color: #1c1d1f;
+    color: #fff;
+}
+.single-main-content-header{
+    margin-left: 10%;
+    padding: 32px 0;
+    max-width: 600px;
+}
+.single-header-title{
+        -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02px;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.single-header-description{
+        -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 19px;
+    margin-bottom: 1.6rem;
+}
+.single-header-rate{
+        -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    color: goldenrod;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.single-header-rate div{
+    margin-right: 12px;
+}
+.single-header-stars{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.single-createdby{
+        -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    color: #fff;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box!important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    flex: 1;
+    min-width: 1px;
+}

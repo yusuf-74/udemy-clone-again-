@@ -1,0 +1,13 @@
+.info-holder{
+    display: flex;
+    margin: 16px 0px;
+}
+.accordion-child{
+    margin: 0 8px;
+}
+.middle{
+    flex: 1;
+}
+.content-holder{
+    margin: 12px 0 24px 0;
+}

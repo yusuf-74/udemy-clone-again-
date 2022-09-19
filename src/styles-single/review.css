@@ -1,0 +1,105 @@
+.reviews-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 16px 0;
+}
+
+.thumb {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 0;
+}
+.like {
+  margin: 0;
+  padding: 0;
+}
+.thumb :hover {
+  color: gray;
+}
+.reviewer-avatar {
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 24px;
+}
+.reviewer-avatar div {
+  font-size: 24px;
+  font-weight: 400;
+}
+.review-card-container {
+  display: flex;
+  padding: 16px 0 24px;
+  height: fit-content;
+}
+.review-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.helpful {
+  margin-top: 8px;
+}
+.help-title {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1c1d1f;
+}
+.review-text,
+.reviewer-rate {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1c1d1f;
+}
+.secondary-container-single {
+  display: flex;
+  height: fit-content;
+}
+.secondary-container-single * {
+  border: none;
+  outline: none;
+}
+.search-reviews,
+.rating-based-filter {
+  border: 1px solid black;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rating-based-filter select {
+  padding: 0 15px 0 15px;
+  cursor: pointer;
+}
+.rating-based-filter {
+  margin: 0 0 0 16px;
+}
+.search-reviews,
+.search-reviews input {
+  flex: 1;
+}
+.search-reviews input {
+  margin: 0;
+  padding: 0;
+}
+.search-reviews button {
+  background-color: black;
+  color: white;
+  width: 48px;
+  height: 100%;
+  cursor: pointer;
+}
+.search-reviews {
+  padding: 0 0 0 16px;
+}

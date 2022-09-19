@@ -1,0 +1,50 @@
+.left-side-rate {
+  color: goldenrod;
+}
+.rate-of-left-side {
+  color: #b4690e;
+  font-size: 64px;
+  font-weight: 700;
+}
+.left-side-title{
+    font-size: 14px;
+    color: #b4690e;
+    font-weight: 700;
+}
+.loading{
+    background-color: #d1d7dc;
+    height: 8px;
+    margin: 5px 0 5px ;
+    
+}
+.loaded{
+    background-color: #6a6f73;
+    height: 8px;
+}
+.middle-side-rate{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:0 32px;
+}
+.right-side-rate{
+  
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedback-container{
+    display: flex;
+}
+.star svg{
+    color: goldenrod;
+}
+.rate-division{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width:160px ;
+}

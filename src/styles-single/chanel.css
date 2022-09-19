@@ -1,0 +1,32 @@
+.chanel-img {
+    border-radius: 100px;
+    width: 112px;
+    height: 112px;
+    margin-right: 16px;
+}
+
+.chanel-title a h4 {
+    font-size: 24px;
+    margin: 0 0 4px 0;
+
+}
+
+.chanel-title a:visited {
+    color: blueviolet;
+}
+
+.chanel-title p {
+    margin: 0 0 4px 0;
+    color: grey;
+}
+
+.info-holder {
+    padding: 4px 0;
+}
+
+.chanel-info-ccontainer {
+    display: flex;
+}
+.chanel-container{
+    margin-bottom: 32px;
+}
