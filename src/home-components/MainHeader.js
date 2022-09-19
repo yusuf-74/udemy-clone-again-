@@ -7,20 +7,15 @@ function MainHeader() {
   return (
     <>
       <div className="header-img">
-       <img
-          className='header-photo'
+        <img
+          className="header-photo"
           src={require("../design-element/mainheaderphoto.jpg")}
           alt="motivating pic"
         />
-        <div className="header-card-pop">
+        <div className="header-card-pop header-card">
           <h1>Learning that gets you</h1>
           <p>Skills for your present and your future. Get started with us.</p>
         </div>
-        <div className="header-card">
-          <h1>Learning that gets you</h1>
-          <p>Skills for your present and your future. Get started with us.</p>
-        </div>
-        
       </div>
     </>
   );

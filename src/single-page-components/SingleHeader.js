@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { useRecoilState } from "recoil";
 import typeState from "../shared-states/taps";
 import { Rating } from "@mui/material";
+import SideBar from "./SideBar";
 function SingleHeader() {
   const [type, setType] = useRecoilState(typeState);
    const id = useParams();
@@ -13,7 +14,9 @@ function SingleHeader() {
   if (!isPending) {
     headerData = (
       <>
-        <div className="single-header-title">{data[type].courses[id.idx].title}</div>
+        <div className="single-header-title">
+          {data[type].courses[id.idx].title}
+        </div>
         <div className="single-header-description">
           {data[type].courses[id.idx].headline}
         </div>
@@ -33,6 +36,7 @@ function SingleHeader() {
         <div className="single-createdby">
           Created by {data[type].courses[id.idx].author[0].name}
         </div>
+        <SideBar data={data[type].courses[id.idx]} />
       </>
     );
   }

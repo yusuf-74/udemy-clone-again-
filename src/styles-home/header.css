@@ -1,13 +1,4 @@
 
-.header-card-pop{
-    position: absolute;
-    top: 150px;
-    left: 110px;
-    background-color: white;
-    padding: 24px;
-    width: 440px;
-
-}
 .header-img{
     width: 100%;
     min-height: 240px;
@@ -21,9 +12,8 @@
     font-size: 25px;
     font-weight: 400;
 }
-.header-card{
-    margin: 0 24px;
-    display: none;
+.header-card-pop{
+    margin-left: 24px;
 }
 .header-photo{
     max-width: 100%;

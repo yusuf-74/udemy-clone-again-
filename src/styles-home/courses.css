@@ -17,6 +17,7 @@
     display: flex;
     max-width: 1215px;
     justify-content: flex-start;
+    overflow: hidden;
 }
 .tabs-container div {
     margin-right: 16px;
@@ -28,6 +29,7 @@
     align-items: center;
     cursor: pointer;
     font-weight: 600;
+    white-space: nowrap;
 }
 .tabs-container div:hover{
     color: black;

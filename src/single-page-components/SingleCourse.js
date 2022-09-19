@@ -4,6 +4,7 @@ import SingleHeader from './SingleHeader'
 import Chanel from "./Chanel"
 import FeedBack from "./FeedBack"
 import Reviews from "./Reviews"
+import SideBar from './SideBar';
 
 function SingleCourse() {
   

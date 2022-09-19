@@ -18,13 +18,10 @@ function CoursesHolder(props) {
     title = data[type].sectionTitle;
     description = data[type].courseDesc;
     const filterd = data[type].courses.filter((obj) => {
-      console.log(Key)
       if (Key === "") {
-        console.log(Key , "not found");
         return 1;
       } else {
-        console.log(Key);
-        return obj["title"].toLowerCase().indexOf(Key.toLowerCase()) !== -1;
+           return obj["title"].toLowerCase().indexOf(Key.toLowerCase()) !== -1;
       }
     });
     courses = filterd.map((el,idx) => {

@@ -11,14 +11,19 @@ function SearchBar(props) {
    let search = ""
 
   return (
-    <div className="nav-search-element">
-      <Link to="/" >
-       <button className="nav-search-btn" onClick={()=>setSearchKey(search)}>
-        <FontAwesomeIcon icon="magnifying-glass" />
-      </button>
+    <div className="nav-search-element nav-bar">
+      <Link to="/">
+        <button className="nav-search-btn" onClick={() => setSearchKey(search)}>
+          <FontAwesomeIcon icon="magnifying-glass" />
+        </button>
       </Link>
-     
-      <input className="nav-search-bar" type="search" placeholder={props.plaseholder} onChange={(e)=>search=e.target.value}/>
+
+      <input
+        className="nav-search-bar"
+        type="search"
+        placeholder={props.plaseholder}
+        onChange={(e) => (search = e.target.value)}
+      />
     </div>
   );
 }

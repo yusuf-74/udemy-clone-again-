@@ -18,6 +18,8 @@ import "./styles-single/chanel.css";
 import "./styles-single/feedback.css";
 import "./styles-single/review.css";
 import "./styles-single/what.css"
+import "./styles-home/media.css"
+import "./styles-single/side-bar.css"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
