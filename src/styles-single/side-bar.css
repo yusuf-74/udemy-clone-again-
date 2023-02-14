@@ -1,0 +1,138 @@
+.side-bar-container {
+  width: 26%;
+  border: 1px solid whitesmoke;
+  position: absolute;
+  top: 120px;
+  left: 70%;
+  background-color: white;
+}
+.side-bar-container{
+    color: black;
+}
+.child {
+  border: 1px solid whitesmoke;
+  z-index: 5000;
+  background-color: white;
+}
+.photo {
+  width: 100%;
+}
+.price {
+  font-weight: bolder;
+  width: 100%;
+  /* text-align: center; */
+  margin-left: 15px;
+}
+.add-to-cart {
+  margin-left: 1rem;
+  width: 70%;
+  background-color: #a435f0;
+  border: 1px solid black;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}
+.heart {
+  margin-left: 1rem;
+  height: 48px;
+  width: 48px;
+  background-color: inherit;
+  border: 1px solid black;
+  color: black;
+  border-radius:50% ;
+}
+
+.buy,
+.try {
+  margin: 1rem;
+  width: 90%;
+  cursor: pointer;
+  height: 40px;
+  background-color: inherit;
+  border: 1px solid black;
+}
+.money-back {
+  font-size: 12px;
+  text-align: center;
+}
+.include {
+  padding: 1rem;
+}
+h6 {
+  font-weight: bold;
+}
+
+.share-gift-apply {
+  padding: 0 1rem;
+  display: flex;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+.share {
+  margin-right: 15px;
+}
+.train {
+  padding: 0 1rem;
+}
+.get {
+  padding: 0 1rem;
+  font-size: smaller;
+}
+.hed {
+  background-color: rgb(27, 25, 25);
+  height: 65px;
+}
+.titl {
+  color: white;
+  padding: 7px 7px 0;
+  font-size: 16px;
+}
+
+.stars-rating-students {
+  padding: 0 7px;
+  margin-bottom: 10px;
+}
+.students {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 7px;
+}
+
+@media screen and (max-width: 1185px) {
+  .side-bar-container {
+    position: unset;
+    display: block;
+    width: 100%;
+    background-color: rgb(27, 25, 25);
+    margin-top: 32px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;    
+    border: none;
+  }
+  .child {
+    display: none;
+  }
+  .photo{
+    width: 70%;
+    max-height: 285px;
+    /* margin: auto; */
+    margin-left: 0%;
+  }
+  .header-container{
+    padding: auto;
+    width: 100%;
+  }
+  .header-title{
+    width: 100%;
+  }
+  .header-paragraph{
+    width: 100%;
+  }
+  .single-page-main-content{
+    margin : auto;
+    /* margin-left: 500px ; */
+  }
+}

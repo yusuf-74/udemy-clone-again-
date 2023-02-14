@@ -1,0 +1,74 @@
+.pop-div {
+  background-color: white;
+  border: 1px solid #d1d7dc;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  line-height: 1.5rem;
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+}
+.pop-date {
+  color: #1e6055;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 0.8rem;
+}
+.none-font {
+  color: #1e6055;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 0.8rem;
+}
+.pop-title {
+  margin-top: 10px;
+}
+.pop-list-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.pop-list-content {
+  margin-left: 20px;
+  display: flex;
+}
+.check-mark {
+  margin-top: 5px;
+}
+.add-to-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.add-to-faiv-button {
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+.like_mark {
+  align-items: center;
+  justify-content: center;
+}
+.pop-button {
+  background-color: #8710d8;
+  flex: 1;
+  color: white;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+}
+.under-title{
+    font-size: 12px;
+    color: gray;
+
+}
